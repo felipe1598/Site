@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout - Minha Loja Online</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="container">
+    <h1>Checkout</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="checkout.html">Comprar</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="checkout card">
+      <h2 id="produtoTitulo">Pagamento via Pix</h2>
+      <p id="produtoResumo">Selecionei o produto no carrinho.</p>
+
+      <div class="pix-box">
+        <p>Chave Pix:</p>
+        <code id="pixKey">seu-pix@dominio.com</code>
+        <button id="copiarBtn" class="btn primary">Copiar Chave</button>
+      </div>
+
+      <p class="muted">Após o pagamento, envie o comprovante para o suporte.</p>
+      <a class="btn" href="produtos.html">Voltar aos Produtos</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Minha Loja Online</p>
+    </div>
+  </footer>
+</body>
+</html>
